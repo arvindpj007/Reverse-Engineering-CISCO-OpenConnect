@@ -1,3 +1,3 @@
-# Reverse Engineering
+# Reverse Engineering CISCO OpenConnect
  
  The task was to reverse engineer an open-source software and a custom binary using various diagnostic tools and security assessment techniques. The open-source software we have is OpenConnect, it’s a VPN service that connects to secure web servers, it includes phases for authentication using certificates and connection using a standard webvpn cookie which runs in Linux. We were using tools like obj dump, ldd, nm, strace and VM table dump to analyze the binary we build. We also utilized the Scitools, Kaitai struct tool, arch studio to better visualize the binary. We initially fixed a single byte error in the custom binary and visualized it using tools like binvis.io and veles tools. Lastly, we have attached key screenshots to our task.
